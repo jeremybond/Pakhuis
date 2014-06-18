@@ -1,0 +1,63 @@
+spawn mier:
+
+mieren laten spawnen buiten het speelveld
+
+timer maken
+
+timer:
+{
+
+	als timer nul bereikt:
+	{
+		welkemier = Math.random();
+		als spawnwaarde < is dan 0.2
+		{		
+		spawn mier 1
+		mierpositie = math.random();
+
+			als mierpositie < 0.2
+			{
+				spawn op: - 100x
+				mier.y = Math.random() * 600;
+			}
+			als mierpositie > 0.2 && < 0.4
+			{
+				spawn op: stageWidth + 100;
+				mier.y = Math.random() * 600;
+			}
+			als mierpositie > 0.4 && < 0.6
+			{
+				spawn op: y = stageheight + 100;
+				mier.x = Math.random() * 800;
+			}
+			als mierpositie > 0.6 && < 0.8
+			{
+				spawn op: y = - 100;
+				mier.x = Math.random() * 800;
+			}
+			
+		}
+			
+	}
+}
+
+
+
+
+
+
+
+
+
+
+game loop
+{
+	alle mieren in array
+	{
+		alle mieren in array draai is naar player
+		
+	}
+	
+	
+}
+
