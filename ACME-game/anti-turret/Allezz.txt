@@ -1,0 +1,48 @@
+Turret:
+
+Moet muis volgen
+Moet kunnen schieten
+Moet blijven doodkunnen
+Moet niet meer kunnen schienten als je dood bent
+
+Mieren:
+
+Moeten spawnen in een array
+Moeten kunnen lopen
+Moeten kunnen aanvallen
+Moeten kunnen doodgaan
+Moeten niet meer spawnen als je dood bent
+
+Bullets:
+
+Moeten kunnen spawnen in een array
+Moeten kunnen verdwijnen
+Moeten kunnen bewegen
+moeten niet spawnen als je dood bent
+
+Leven:
+
+Moeten er af kunnen
+Moeten op beeld staan
+Moeten stoppen als je dood bent
+
+
+Scorebord:
+
+Moet op beeld staan
+Moet steeds omhoog gaan
+Moet stoppen als je dood bent
+
+DoodScherm:
+
+Moet tevoorschijn komen als je levens op zijn
+Moet een restart knop hebben
+Moet naar kunnen bewegen
+Moet weer weg kunnen als je op restart knop drukken
+
+Restart knop:
+
+Moet alles weg halen en er opnieuw opzetten
+Moet met doodscherm bewegen
+
+

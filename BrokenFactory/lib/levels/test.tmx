@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="18" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="BW" tilewidth="40" tileheight="40">
+  <image source="C:/Users/Simon/Desktop/BW.png" width="80" height="40"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="24" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy1lFEOADAEQ7n/pXcBpa1pIvvAYyIyIvLYGG356P3BZ/52PadtzUkozmUrPVzz2bxqpxQ2qjHFsjxUYyvE+rlP3bwdMTNx9m7qTeFXuSq/81dMhY983Y1R+cqNcuwBYMEA5w==
+  </data>
+ </layer>
+</map>
