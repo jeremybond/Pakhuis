@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #333;
+	
+}
+#container {
+	background-color:#999;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1850px;
+	overflow: hidden;
+	text-align: center;
+}
+header {
+	width: 1000px;
+	height: 300px;
+	border-radius-top: 50px;
+	background-image: url(../foto%27s/technology.jpg);
+	overflow: hidden;
+}
+#nav {
+	text-decoration:none;
+	text-align:center;
+	padding-top: 5px;
+}
+article {
+	
+	
+}
+aside {
+	
+	
+}
+footer {
+	padding-top: 10px;
+}
+p{
+	padding-left:50px; 
+	width: 900px;
+}
+h1 {
+	text-shadow: #fff 5px 5px 10px;
+	font-size: 25px;
+}
+h2 {
+	
+}
+#nav a:link {
+	background: #CCC;
+	border-radius: 5px;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #000;
+	border-radius: 5px;
+	display: inline;
+	box-shadow: #000;
+	page-break-before: left;
+	page-break-after: right;
+}
+li {
+	list-style-type:none;
+	margin:0 auto;
+}
+nav ul{
+	color: 000;
+	font-size:24px;
+}
