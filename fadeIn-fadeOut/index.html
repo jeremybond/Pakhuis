@@ -1,0 +1,52 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>kenny</title>
+	<link href="kenny.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			//fadeIn en fadeOut
+			$('.kader img#a').click(function(){
+				$('.kader img#a').fadeOut(2000, function() {
+					$('.kader img#a').delay(2000).fadeIn(3000)
+				});
+			})
+			//show en hide
+			$('.kader img#b').click(function(){
+				$('.kader img#b').hide(2000, function() {
+					$('.kader img#b').delay(2000).show(3000)
+				});
+			})
+			$('.kader img#c').click(function(){
+				$('.kader img#c').slideUp(2000, function() {
+					$('.kader img#c').delay(2000).slideDown(3000)
+				});
+			})
+			//fadeToggle
+			$('.kaderT').click(function(){
+				$('.kaderT img#d').fadeToggle(2000)
+			})
+		})
+	</script>
+</head>
+
+<body>
+	<div class="kader">
+		<p>fadeIn en fadeOut</p>
+        <img src="kenny.jpg" id="a"/>
+	</div>
+    <div class="kader">
+		<p>show en hide</p>
+        <img src="kenny.jpg" id="b"/>
+	</div>
+    <div class="kader">
+		<p>slideDown en slideUp</p>
+        <img src="kenny.jpg" id="c"/>
+	</div>
+    <div class="kaderT">
+		<p>fadeToggle<p>
+        <img src="kenny2.jpg" id="d"/>
+	</div>
+</body>
+</html>

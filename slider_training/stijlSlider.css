@@ -1,0 +1,64 @@
+@charset "utf-8";
+html {
+	background-color: #999999;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #CCC;
+	width: 800px;
+	margin: 0 auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+h3 {
+	margin:0;
+	padding: 15px 0 15px 20px;
+}
+p {
+	padding: 15px;
+}
+
+
+/* ------ de slider ----------- */
+#venster {
+	height: 300px;
+	width: 800px;
+	position: relative;
+	overflow:hidden;
+}
+
+#strook {
+	width: 4800px; 
+	position:absolute;
+	
+}
+
+.dia {
+	float: left;
+	height: 300px;
+	width: 800px;
+	color:#FFF;
+	text-shadow: 5px 5px 10px rgba(51,51,51,0.8);
+}
+
+
+/* ----- de opmaak van de dia's ------------ */
+#dia1 {
+	background-image: url(video%20pictures/dia1.jpg);
+}
+#dia2 {
+	background-image: url(video%20pictures/dia2.jpg);
+}
+#dia3 {
+	background-image: url(video%20pictures/dia3.jpg);
+}
+#dia4 {
+	background-image: url(video%20pictures/dia4.jpg);
+}
+#dia5 {
+	background-image: url(video%20pictures/dia5.jpg);
+}
+#dia6 {
+	background-image: url(video%20pictures/dia6.jpg);
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Numans);
+html, body{
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: rgb(255,255,255);
+	background-color: rgb(160,30,0);
+	background-image: url(achtergrond.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	font-family: Verdana;
+}
+#container {
+	width: 1067px;
+	margin: 0 auto;
+	position: relative;	
+}
+h1 {
+	font-family: 'Numans', sans-serif;
+	font-size: 20px;
+	
+}
+#houder {
+	width: 1067px;
+	height: 623px;
+	background-image:url(bigbangtheorie2.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#venster {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 250px;
+	top: 180px;
+	background-image:url(bigbangtheorie.jpg);
+	background-position: -250px -180px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	-webkit-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+	-moz-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+	-o-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+	transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+}
+
+/*--------------------- de info knop ----------------------*/
+article div {
+	background-color: rgba(0,0,0, 0.5);
+	padding:20px 40px;
+	position: absolute;
+	top: 720px; 
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px; 
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	column-count: 2;
+	column-gap: 40px;
+}
+.zichtbaar {
+	display: block;
+}
+.onzichtbaar {
+	display: none;
+}
+            /* opmaak van het menu*/
+nav {
+	background-color: rgba(200, 100, 0, 0.6);
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 575px;
+	height: 20px;
+}
+nav li{
+	float: left;
+	border-right: 1px rgb(250, 250, 250) solid;
+}
+nav li:first-child {
+	border-left: 1px rgb(250, 250, 250) solid;
+}
+nav a{
+	color: rgb(250, 250, 250);
+	text-decoration: none;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 12px;
+	font-size: 12px;
+	display: block;
+}
+nav a:hover, nav a.actief {
+	background-color: rgb(10, 10, 10);
+}
+ /*--------------------- de info knop ----------------------*/
+a#infoKnop {
+	color: rgb(255,255,255);
+	font-size: 14px;
+	text-decoration:none;
+	position:absolute;
+	left: 1065px;
+	top: 670px;
+	padding: 3px 12px;
+	background-color: rgba(200, 100, 0, 0.6);
+	border: 2px solid rgb(0,0,0);
+	border-radius: 12px 6px;
+	
+}
+a#infoKnop:hover{
+	background-color: #000;
+}
+#infoKnop.geklikt{
+	background-color: #000;
+	border: 2px solid rgb(255,255,255);
+	border-radius: 6px 12px;
+}
+a#infoKnop.geklikt:hover {
+	background-color: rgba(200, 1000, 0, 0.6);
+}
+
